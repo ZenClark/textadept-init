@@ -1,7 +1,7 @@
 local keys = keys
 
 keys.command_mode = {
-  ['ctrl+s'] = io.save_file,
+  ['ctrl+s'] = buffer.save,
   ['ctrl+q'] = quit,
   ['v'] = function()
     		ui.statusbar_text = _RELEASE
